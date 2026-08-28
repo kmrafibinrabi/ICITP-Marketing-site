@@ -58,11 +58,13 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    color: white;
     transition: .3s
 }
 
 header.scrolled {
     background: #f5f3eee8;
+    color: var(--ink);
     backdrop-filter: blur(16px);
     box-shadow: 0 1px 0 #0001
 }
@@ -1160,6 +1162,7 @@ footer {
         position: fixed;
         inset: 70px 0 0;
         background: var(--paper);
+        color: var(--ink);
         padding: 25px 28px;
         flex-direction: column
     }
